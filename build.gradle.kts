@@ -39,7 +39,7 @@ publishing {
             pom {
                 name.set("BF.Minecraft.API")
                 description.set(project.description)
-                url.set("https://github.com/Bloogefest/BF.Minecraft")
+                url.set("https://github.com/Bloogefest/BF.Minecraft.API")
 
                 licenses {
                     license {
@@ -58,19 +58,19 @@ publishing {
                 }
 
                 scm {
-                    connection.set("scm:git:git://github.com/Bloogefest/BF.Minecraft.git")
-                    developerConnection.set("scm:git:ssh://github.com/Bloogefest/BF.Minecraft.git")
-                    url.set("https://github.com/Bloogefest/BF.Minecraft")
+                    connection.set("scm:git:git://github.com/Bloogefest/BF.Minecraft.API.git")
+                    developerConnection.set("scm:git:ssh://github.com/Bloogefest/BF.Minecraft.API.git")
+                    url.set("https://github.com/Bloogefest/BF.Minecraft.API")
                 }
 
                 issueManagement {
                     system.set("Github")
-                    url.set("https://github.com/Bloogefest/BF.Minecraft/issues")
+                    url.set("https://github.com/Bloogefest/BF.Minecraft.API/issues")
                 }
 
                 ciManagement {
                     system.set("Github")
-                    url.set("https://github.com/Bloogefest/BF.Minecraft/actions")
+                    url.set("https://github.com/Bloogefest/BF.Minecraft.API/actions")
                 }
             }
         }
